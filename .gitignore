@@ -1,5 +1,4 @@
 # Logs
-logs
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -56,6 +55,10 @@ typings/
 
 # dotenv environment variables file
 .env
+.env.*
 
 # next.js build output
 .next
+
+# data files
+.data/*/*.json
